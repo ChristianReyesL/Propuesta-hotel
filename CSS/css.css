@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	}
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	line-height: 1.4cm;
+	background-color: white;
+	font-size: 25px;
+}
+
+.mainportada {
+	text-align: center;
+}
+.menubar {
+		background:white;
+	overflow: hidden;
+	position:inherit;
+}
+
+.encabezado{
+	overflow: hidden;
+	position: inherit;
+}
+.encabezado nav{
+	float: center;
+}
+.encabezado nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.encabezado nav ul li{
+	display:inline;
+	margin-right: -4px;
+}
+.encabezado nav ul li a{
+	
+	color:black;
+	padding: 60px;
+	border-left: 0px solid #696969;
+}
+
+.encabezado nav ul li a:hover{
+	background:rgba(22,108,150,0.82);
+	}
+.logo{
+	float: left;
+	width: 90px
+}
+.footer{
+	float: inherit;
+	background:rgba(46,46,46,1.00);
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: aliceblue;
+	font-size: 28px;
+	line-height: 2.5;
+	padding-left: 600px
+}
+.imagenfooter{
+	float: left;
+	border-style:groove
+}
+.bannercolor1{
+	background: rgba(255,193,105,1.00);
+	float:center;
+}
+.textoinicial{
+	color: white;
+	padding-left: 10px
+}

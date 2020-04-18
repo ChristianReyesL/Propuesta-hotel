@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	}
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	line-height: 1.4cm;
+	background-color:black;
+	font-size: 25px;
+}
+
+.mainportada {
+	text-align: center;
+}
+.menubar {
+	overflow: hidden;
+	position:inherit;
+}
+
+.encabezado{
+	overflow: hidden;
+	position: inherit;
+}
+.encabezado nav{
+	float: center;
+}
+.encabezado nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.encabezado nav ul li{
+	display:inline;
+	margin-right: -4px;
+}
+.encabezado nav ul li a{
+	
+	color: white;
+	padding: 70px;
+	border-left: 0px solid #696969;
+}
+
+.encabezado nav ul li a:hover{
+	}
+.logo{
+	float: left;
+	width: 90px;
+	}
+.imagencentro{
+	width: 550px;
+	float: right
+}
+
+.parrafo{
+	float:auto;
+	color: white;
+	background: black;
+}
+.footerfinal{
+	color: white
+}
+.texto{
+	background-color:white		
+}
+.footerprueba{
+	background: rgba(255,221,149,1.00);
+	text-align: center
+}
